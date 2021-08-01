@@ -10,7 +10,7 @@ try{
     $Book = new Book();
     $Book->setTitle("hello World");
     $Book->setAuthor("Wael Walid");
-    print_r($Book->read(4));
+    print_r($Book->read(8));
     print_r($Book->getAll());
     echo "\n ------ Book End ----- \n";
 
@@ -28,7 +28,7 @@ try{
     /** Notebook Implementation */
     $Notebook = new Notebook();
     $Notebook->setOwner("John doe");
-    print_r($Notebook->read(4));
+    print_r($Notebook->read(5));
     print_r($Notebook->getAll());
     echo "\n ------ Notebook End ----- \n";
 
